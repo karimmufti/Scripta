@@ -33,15 +33,9 @@ npm run dev
 
 Requires Node.js 18+.
 
-## Environment Variables
 
-Create a `.env` file with your Supabase credentials:
+## Author:
 
-```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-## License
-
-MIT
+Kareem Muftee
+Youssef Elghawabi
+Dominic Aidoo
