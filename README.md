@@ -19,7 +19,7 @@
 
 ---
 
-## 🎬 What is Scripta?
+## What is Scripta?
 
 **Scripta** is a full-stack web application that turns screenplay table reads into an asynchronous workflow. A screenwriter uploads a script, assigns characters to actors, and shares unique recording links. Each actor records their lines remotely — on their own time, from their own device. Scripta then stitches every recording into a single, cohesive table read with natural pauses and subtle room tone — all entirely in the browser.
 
@@ -27,40 +27,40 @@ No scheduling conflicts. No Zoom calls. No expensive studio time.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🖋️ Immersive 3D Typewriter Interface
+### Immersive 3D Typewriter Interface
 - Full-screen **3D typewriter scene** built with React Three Fiber and Three.js
 - Type directly onto the paper — each keystroke plays a realistic typewriter sound effect
 - Cinematic dark theme with film grain overlay, vignette, and gold accents
 - Carriage return sound plays when the script is parsed
 
-### 📜 Smart Script Parsing
+### Smart Script Parsing
 - Paste or type a script in standard `CHARACTER: dialogue` format
 - **Upload a `.txt` file** to import scripts instantly
 - **Load a sample script** (Jack & Rose demo) to try it out
 - Automatic extraction of unique characters and ordered dialogue lines
 
-### 🎭 Actor Assignment & Sharing
+### Actor Assignment & Sharing
 - Map each character to a real person (actor name)
 - Each actor receives a **unique shareable link** — no accounts needed
 - Token-based auth: writers get a `writer_token`, actors get a `share_token`
 
-### 🎙️ Remote Line Recording
+### Remote Line Recording
 - Actors open their personal link and see the full script for context
 - Their assigned lines are highlighted; other characters' lines are shown for reference
 - **One-click recording** via the browser microphone (MediaRecorder API)
 - Playback, re-record, and upload controls for each line
 - Real-time progress tracking
 
-### 🗣️ Gender-Aware Text-to-Speech Narration
+### Gender-Aware Text-to-Speech Narration
 - Between an actor's lines, the app narrates other characters' dialogue aloud using the **Web Speech Synthesis API**
 - **Gender-aware voice selection** — infers male/female from the character name (70+ common names + heuristic fallback)
 - Prefers high-quality Siri voices on macOS (Samantha, Daniel, Karen, Alex)
 - Separate pitch and rate tuning per gender for natural feel
 - Penalizes robotic/novelty voices automatically
 
-### 🎧 Client-Side Audio Stitching
+### Client-Side Audio Stitching
 - **Zero server-side processing** — everything runs in the browser via the Web Audio API
 - Loads all recorded clips from Supabase Storage
 - Converts to mono, resamples to 44.1 kHz
@@ -69,7 +69,7 @@ No scheduling conflicts. No Zoom calls. No expensive studio time.
 - Exports to WAV with proper RIFF headers
 - Instant playback + download from the dashboard
 
-### 📊 Writer Dashboard
+### Writer Dashboard
 - Track recording progress per actor with visual progress bars
 - **"Lines Recorded — X of Y"** label for clarity
 - Copy actor invite links with one click
@@ -78,7 +78,7 @@ No scheduling conflicts. No Zoom calls. No expensive studio time.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 src/
@@ -117,7 +117,7 @@ src/
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 Three Postgres tables managed by Supabase:
 
@@ -157,7 +157,7 @@ Three Postgres tables managed by Supabase:
 
 ---
 
-## 🔄 User Flow
+## User Flow
 
 ```
 ┌─────────────┐     ┌──────────────┐     ┌────────────────┐     ┌──────────────┐
@@ -176,7 +176,7 @@ Three Postgres tables managed by Supabase:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -194,7 +194,7 @@ Three Postgres tables managed by Supabase:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -252,7 +252,7 @@ npm run test:watch   # Watch mode tests
 
 ---
 
-## 🎨 Design
+## Design
 
 - **Cinematic dark theme** — deep radial gradient background
 - **Film grain overlay** — subtle texture with overlay blend mode
@@ -263,7 +263,7 @@ npm run test:watch   # Watch mode tests
 
 ---
 
-## 📝 Script Format
+## Script Format
 
 Scripts should follow standard screenplay dialogue format:
 
@@ -279,7 +279,7 @@ CHARACTER_NAME: And so on...
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -289,11 +289,6 @@ CHARACTER_NAME: And so on...
 
 ---
 
-## 📄 License
-
-MIT
-
----
 
 <p align="center">
   Built with ☕ and 🎬 at <strong>SparkHacks 2026</strong>
