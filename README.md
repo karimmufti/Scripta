@@ -26,7 +26,11 @@
 No scheduling conflicts. No Zoom calls. No expensive studio time.
 
 ---
+## Photo:
+![Uploading image.png…]()
 
+
+---
 ## Features
 
 ### Immersive 3D Typewriter Interface
