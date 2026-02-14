@@ -1,4 +1,4 @@
-<p align="center">
+<img width="3466" height="1792" alt="image" src="https://github.com/user-attachments/assets/8b662ceb-39de-4ab1-9f8a-566954c24788" /><p align="center">
   <img src="public/favicon.png" alt="Scripta Logo" width="120" />
 </p>
 
@@ -27,7 +27,7 @@ No scheduling conflicts. No Zoom calls. No expensive studio time.
 
 ---
 ## Photo:
-![Uploading image.png…]()
+<img width="3466" height="1792" alt="image" src="https://github.com/user-attachments/assets/18a6ab88-a275-44b9-85b8-6a44276af719" />
 
 
 ---
