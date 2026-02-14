@@ -1,3 +1,4 @@
+<p align="center">
   <img src="public/favicon.png" alt="Scripta Logo" width="120" />
 </p>
 
